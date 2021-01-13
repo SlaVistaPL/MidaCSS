@@ -1,45 +1,97 @@
 /*
- * MidaCSS Framework v1.0 by SlaVistaPL
+ * MidaCSS Framework v1.3 by SlaVistaPL
  * Modern and easy-to-use webpage framework.
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 
+* {
+	font-family: Roboto, sans-serif;
+}
+
 body {
-	font-family: Roboto, sans-serif !important;
+	margin: 0 !important;
+}
+
+/* Navbar sticky classes */
+.navbar.sticky-top {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	top: 0 !important;
+}
+
+.navbar.sticky-bottom {
+	position: -webkit-sticky !important;
+	position: sticky !important;
+	bottom: 0 !important;
+}
+
+/* Containers */
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
 }
 
 /* Root classes and colors */
+a.nav-link {
+	text-decoration: none;
+	color: black;
+}
+
+.divider {
+	border: 1px 0 0 0 solid white;
+}
+
 .color-primary {
 	background-color: rgb(0, 191, 255);
+	color: white;
 }
 
 .color-secondary {
 	background-color: rgb(153, 153, 153);
+	color: black;
 }
 
 .color-success {
 	background-color: rgb(0, 179, 60);
+	color: white;
 }
 
 .color-warning {
 	background-color: rgb(255, 205, 26);
+	color: white;
 }
 
 .color-error {
 	background-color: rgb(204, 0, 0);
+	color: white;
 }
 
 .color-info {
 	background-color: rgb(44, 177, 221);
+	color: white;
 }
 
 .color-dark {
 	background-color: rgb(60, 60, 60);
+	color: white;
 }
 
 .color-light {
 	background-color: rgb(230, 230, 230);
+	color: black;
 }
 
 /* Margin classes */
@@ -215,11 +267,16 @@ body {
 /* Badges */
 .badge {
 	display: inline-block;
-	padding: 0.25em 0.4em;
-	font-size: 80%;
+  	padding: 0.25em 0.4em;
+	font-size: 75%;
+	font-weight: 700;
 	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
 	border-radius: 5px;
 	box-shadow: 0 0 10px -5px black;
+	width: auto;
 }
 
 .badge-primary {
@@ -255,22 +312,25 @@ body {
 /* Buttons */
 .button {
 	border: 1px solid transparent;
-	padding: 0.5rem 1rem;
+	margin: 5px;
+	padding: 10px;
 	font-size: 1rem;
 	line-height: 1.5;
 	border-radius: 7px;
-	box-shadow: 5px 5px 4px -4px #111111;
+	box-shadow: 5px 5px 6.5px -6.5px #111111;
 	transition: box-shadow 500ms;
+	outline: none;
 }
 
 .button-rounded {
 	border: 1px solid transparent;
-	padding: 0.5rem 1rem;
+	padding: 10px;
 	font-size: 1rem;
 	line-height: 1.5;
-	border-radius: 20px;
-	box-shadow: 5px 5px 5px -5px #111111;
+	border-radius: 50px;
+	box-shadow: 5px 5px 6.5px -6.5px #111111;
 	transition: box-shadow 500ms;
+	outline: none;
 }
 
 .button-rounded:hover {
@@ -365,6 +425,7 @@ body {
 	background-color: #fff;
 	background-clip: border-box;
 	height: auto;
+	border-radius: 3px;
 }
 
 .card-header {
@@ -382,6 +443,8 @@ body {
 .input {
 	padding: 10px;
 	border-radius: 5px;
-	border: 1px solid;
+	border: 1px solid transparent;
 	font-size: 110%;
+	outline: none;
+	box-shadow: 0 0 10px -5px black;
 }
