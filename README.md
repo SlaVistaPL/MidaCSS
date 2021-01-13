@@ -14,8 +14,8 @@ Możesz również pobrać te pliki oraz hostować na swoim komputerze/telefonie,
 Umieszczanie plików tego frameworka na stronie odbywa się w następujący sposób:
 
 ```
-<link rel="stylesheet" href="https://download847.mediafire.com/x5pihdkqx53g/qfd7yrnuoq4etg7/master.css" />
-<script src="https://download1080.mediafire.com/ctab52hm4drg/owldp1q6kdzr081/script.js"></script>
+<link rel="stylesheet" href="https://midacss.ml/assets/master.min.css" />
+<script src="https://midacss.ml/assets/script.min.js"></script>
 ```
 
 Znaczniki można umieścić w dowolnym miejscu, w sekcji `<head>`.
