@@ -1,5 +1,5 @@
 # MidaCSS
-Framework CSS, który upiększy twoją stronę.
+Framework CSS, który upiększy twoją stronę. Dostępny na licencji open-source.
 Aktualna wersja: 1.3
 
 ## Instalacja MidaCSS
