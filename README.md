@@ -3,20 +3,20 @@ Framework CSS, który upiększy twoją stronę. Dostępny na licencji open-sourc
 Aktualna wersja: 1.3
 
 ## Instalacja MidaCSS
-Instalowanie MidaCSS nie wymaga posiadania zaawansowanych programów do pisania stron internetowych oraz różnych narzędzi. Wgrywanie tego frameworka jest banalnie proste, co oznacza iż musisz w kodzie strony zamieścić tylko 2 znaczniki linkujące do arkuszu stylów oraz do pliku JavaScript.
+Poniżej znajdziesz linki do arkusza CSS i do pliku JavaScript, umożliwiającego dodanie z poziomu MidaCSS frameworków, tj. FontAwesome czy Lodash.
 
 Link do arkusza CSS:
-> https://midacss.ml/assets/master.min.css
+> https://raw.githubusercontent.com/SlaVistaPL/MidaCSS/main/src/master.min.css
 
 Link do pliku JavaScript:
-> https://midacss.ml/assets/script.min.js
+> https://raw.githubusercontent.com/SlaVistaPL/MidaCSS/main/src/script.min.js
 
-Możesz również pobrać te pliki oraz hostować na swoim komputerze/telefonie, aczkolwiek zalecane jest hostowanie MidaCSS z wyżej wymienionych adresów URL.
+Możesz również pobrać te pliki oraz hostować na swoim komputerze/telefonie. Zalecane jest jednak korzystanie z wyżej wymienionych linków - zawartość jest w nich automatycznie aktualizowana po udostępnieniu aktualizacji. Pamiętaj jednak o wpisaniu prawidłowej ścieżki, w przeciwnym razie MidaCSS nie będzie działać!
 Umieszczanie plików tego frameworka na stronie odbywa się w następujący sposób:
 
 ```
-<link rel="stylesheet" href="https://midacss.ml/assets/master.min.css" />
-<script src="https://midacss.ml/assets/script.min.js"></script>
+<link rel="stylesheet" href="https://raw.githubusercontent.com/SlaVistaPL/MidaCSS/main/src/master.min.css" />
+<script src="https://raw.githubusercontent.com/SlaVistaPL/MidaCSS/main/src/script.min.js"></script>
 ```
 
 Znaczniki można umieścić w dowolnym miejscu, w sekcji `<head>`.
